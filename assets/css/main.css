@@ -1,0 +1,97 @@
+html {
+	background: #f8f8f8;
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	background: none;
+	margin-bottom: 60px; /* Margin bottom by footer height */
+	padding: 50px 0 20px;
+}
+
+.container-fluid {
+	max-width: 1200px;
+	margin: 2em auto;
+}
+
+.channon-list td {
+	font-size: .8em;
+}
+
+/* Override Bootstraps insanely specific CSS */
+.channon-list tbody tr td {
+	vertical-align: middle;
+}
+
+.channon-list td:first-child a {
+	font-size: 1.2em;
+	padding-right: .2em;
+}
+
+.channon-list td:last-child {
+	text-align: right;
+}
+
+.channon-panel-heading {
+	margin-top: 0;
+}
+
+.panel .page-header {
+	margin-top: 1em;
+}
+
+.panel-default > .panel-heading-white {
+	background: none;
+}
+
+.table-expanded > tbody > tr > td {
+	padding: 12px;
+}
+
+section + section {
+	margin-top: 3em;
+}
+
+.sidebar section + section {
+	margin-top: 2em;
+}
+
+.sidebar {
+	border-left: 1px solid #eee;
+	margin-top: 3em;
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		margin-top: 0;
+	}
+}
+
+.api-url {
+	border: none;
+	color: #aaa;
+	cursor: pointer;
+	font-size: .8em;
+	width: 100%;
+}
+
+.footer {
+	position: absolute;
+	bottom: 1px;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+
+.footer .container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 0 auto;
+}
+
+.footer .text-muted {
+	margin: 20px 0;
+}
